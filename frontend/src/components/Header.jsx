@@ -13,7 +13,7 @@ import profilePhoto from "../assets/profile_photo_1.jpg";
 
 const Header = () => {
   return (
-    <header className="w-full bg-white shadow-md px-10 py-3 flex items-center justify-between">
+    <header className="w-full bg-white shadow-md px-10 py-3 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-sm">
       {/* Left: Logo + Search */}
       <div className="flex items-center gap-6">
         {/* Logo */}
